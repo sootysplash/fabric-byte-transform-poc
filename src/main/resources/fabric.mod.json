@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "clinit-invoker",
+  "version": "${version}",
+  "name": "clinit-invoker",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/clinit-invoker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.sootysplash.swap.clinitInvoker.client.ClinitInvokerClient"
+    ],
+    "main": [
+      "me.sootysplash.swap.clinitInvoker.ClinitInvoker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
