@@ -7,3 +7,5 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+include ':dummy-mod'
+//includeBuild "dummy-mod"

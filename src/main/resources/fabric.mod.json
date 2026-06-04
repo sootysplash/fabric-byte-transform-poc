@@ -10,11 +10,11 @@
   "icon": "assets/clinit-invoker/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "me.sootysplash.swap.clinitInvoker.client.ClinitInvokerClient"
+    "preLaunch": [
+      "me.sootysplash.swap.clinitInvoker.OnPreLaunch"
     ],
     "main": [
-      "me.sootysplash.swap.clinitInvoker.ClinitInvoker"
+      "me.sootysplash.swap.clinitInvoker.OnInit"
     ]
   },
   "depends": {
